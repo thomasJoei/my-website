@@ -16,8 +16,10 @@ folders:
 sites:
     - map: thomasjoeisseint.dev.com
       to: /vagrant/site/public
+      type: apache
     - map: mysql.thomasjoeisseint.dev.com
       to: /vagrant/mysql
+      type: apache
 
 databases:
     - craft

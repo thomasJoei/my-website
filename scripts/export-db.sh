@@ -1,0 +1,1 @@
+mysqldump craft > ../mysql/db.sql
