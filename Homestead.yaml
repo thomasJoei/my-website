@@ -10,7 +10,7 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/perso/perso-craft
+    - map: ./my-website
       to: /vagrant
 
 sites:
