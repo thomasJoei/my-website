@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ entry.headTitle }}</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="{{ entry.headDescription }}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/timeline.css">
+  <link rel="stylesheet" href="/assets/css/circle.css">
+  <!-- Latest compiled and minified CSS -->
+  <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" -->
+  <!-- Bootstrap -->
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+  {#<style type="text/css">#}
+
+    {#body{#}
+      {#background-color: #f5f5f5;#}
+      {#margin: 0;#}
+      {#padding: 0;#}
+      {#font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;#}
+    {#}#}
+
+    {#.page {#}
+      {#margin: 40px;#}
+    {#}#}
+
+    {#h1{#}
+      {#margin: 40px 0 60px 0;#}
+    {#}#}
+
+    {#.dark-area {#}
+      {#background-color: #666;#}
+      {#padding: 40px;#}
+      {#margin: 0 -40px 20px -40px;#}
+      {#clear: both;#}
+    {#}#}
+
+    {#.clearfix:before,.clearfix:after {content: " "; display: table;}#}
+    {#.clearfix:after {clear: both;}#}
+    {#.clearfix {*zoom: 1;}#}
+
+  {#</style>#}
+</head>
+
+<body>
+
+{#{% include "main/navbar.twig" %}#}
+{% block content %}
+
+{% endblock %}
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+
+</body>
+</html>

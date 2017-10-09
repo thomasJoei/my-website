@@ -1,0 +1,127 @@
+{
+	"summary": "Blablabla looking for 200K job and landing on Mars",
+	"experiences":[
+		{
+			"job_title": "Fullstack Developer",
+			"company": "Nurun Montréal",
+			"dates": "February 2016 - Present",
+			"description": "Java and Php websites development. Worked on the re-development of several websites for a big Canadian company. Using best pratices process and ",
+			"technos":"Drupal - CakePhp - Spring - Apache Sling - Ansible - Vagrant - Docker - Jenkins - Freemarker",
+			"icon": "glyphicon-briefcase"
+		},
+		{
+			"job_title": "Backend intern",
+			"company": "Nurun Montréal",
+			"dates": "June 2015 - September 2015",
+			"description": "Web development with Laravel, database modelisation, environment configuration. Participated in a Java automation testing project",
+			"technos":"Laravel - Ansible - Vagrant - Java",
+			"icon": "glyphicon-pencil"
+		},
+		{
+			"job_title": "Laboratory internship on object tracking algorithms",
+			"company": "LITIV Laboratory, Polytechnique Montreal",
+			"dates": "January 2014 - April 2015",
+			"description": "Use evaluation framework in order to make a benchmark comparison between tracking algorithms on 360° camera.<br><a href=\"http://arxiv.org/abs/1505.04502\" target=\"_blank\">Research paper published</a>",
+			"technos": "Matlab - C++",
+			"icon": "glyphicon-pencil"
+		},
+		{
+			"job_title": "One year International exchange program",
+			"company": "Polytechnique Montreal",
+			"dates": "2014 - 2015",
+			"description": "Exchange for two semesters",
+			"technos": "Artificial intelligence - Machine learning - Software Testing - Team management - Accounting",
+			"icon": "glyphicon-education"
+		},
+		{
+			"job_title": "Software engineer intern",
+			"company": "Miami University",
+			"dates": "May 2014 - August 2014",
+			"description": "Conception and implementation of users redirecting algorithms. Improved redirected walking to support multi-user connected to the network.<br><a href=\"http://hive.teams.csi.muohio.edu/\" target=\"_blank\">HIVE website</a>",
+			"technos":"C++ - Unity - C#",
+			"icon": "glyphicon-pencil"
+		},
+		{
+			"job_title": "Bachelor + Master degree in computer science engineering",
+			"company": "Graduate School of Engineering of the University of Nantes",
+			"dates": "2010 - 2015",
+			"description": "Major : Systems and networks",
+			"technos": "Software development - Database modelisation - Business intelligence - Project management - Communication - Accounting",
+			"icon": "glyphicon-education"
+		}
+	],
+	"skills": [
+		{
+			"name": "infra",
+			"label": "System/Operation",
+			"expertise_percentage" :34,
+			"skills": [
+				{"label": "Ansible", "logo": "/assets/img/ansible-logo.svg", "link": "https://www.ansible.com/", "score": "4"},
+				{"label": "Docker", "logo": "/assets/img/docker-logo.svg", "link": "https://www.docker.com/", "score": "3"},
+				{"label": "Vagrant", "logo": "/assets/img/vagrant-logo.png", "link": "https://www.vagrantup.com/", "score": "3.5"},
+				{"label": "Jenkins", "logo": "/assets/img/jenkins-logo.png", "link": "https://jenkins.io/", "score": "3"},
+				{"label": "MySQL", "logo": "/assets/img/mysql-logo.png", "link": "https://www.mysql.com/", "score": "4"}
+			]
+		},
+		{
+			"name": "backend",
+			"label": "Backend",
+			"expertise_percentage" :34,
+			"skills": [
+				{"label": "Spring", "logo": "/assets/img/spring-logo.png", "link": "https://spring.io/", "score": "4.5"},
+				{"label": "Apache Sling", "logo": "/assets/img/sling-logo.png", "link": "http://sling.apache.org/", "score": "2.5"},
+				{"label": "Laravel", "logo": "/assets/img/laravel-logo.png", "link": "https://laravel.com/", "score": "3.5"},
+				{"label": "Drupal", "logo": "/assets/img/drupal-logo.png", "link": "https://www.drupal.org/", "score": "4"},
+				{"label": "CakePhp", "logo": "/assets/img/cakephp-logo.svg", "link": "https://cakephp.org/", "score": "3.5"}
+			]
+		},
+		{
+			"name": "frontend",
+			"label": "Frontend",
+			"expertise_percentage" :34,
+			"skills": [
+				{"label": "Javascript", "logo": "/assets/img/javascript-logo.png", "link": "https://www.javascript.com/", "score": "3"},
+				{"label": "Bootstrap", "logo": "/assets/img/bootstrap-logo.png", "link": "http://getbootstrap.com/", "score": "2.5"},
+				{"label": "JQuery", "logo": "/assets/img/jquery-logo.png", "link": "https://jquery.com/", "score": "2"},
+				{"label": "Angular2", "logo": "/assets/img/angular-logo.svg", "link": "https://angular.io/", "score": "2.5"},
+				{"label": "Freemarker", "logo": "/assets/img/freemarker-logo.png", "link": "http://freemarker.org/", "score": "4"}
+			]
+		},
+		{
+			"name": "transversal",
+			"label": "Transversal",
+			"expertise_percentage" :34,
+			"skills": [
+				{"label": "French", "logo": "/assets/img/french-logo.png", "score": "5"},
+				{"label": "English", "logo": "/assets/img/english-logo.png", "score": "4.5"},
+				{"label": "Design Patterns / Code Optimization", "logo": "/assets/img/designpatterns-logo.png", "score": "4"},
+				{"label": "Team-working", "logo": "/assets/img/teamworking-logo.png", "score": "4.5"},
+				{"label": "Beer drinking", "logo": "/assets/img/beer-logo.png", "score": "5"}
+			]
+		}
+	],
+	"randomFacts": {
+		"facts": [
+			{
+				"title": "I practice Brazilian Jiu-Jitsu",
+				"image": "/assets/img/flying-arm-bar.jpg",
+				"description" : "Crazy shit !! At Thailong with the Brazilian Top Team. Also Muay Thai and Wrestling (Healthy, sportmanship, motivated)"
+			},
+			{
+				"title": "Brew beer",
+				"image": "/assets/img/harambe.jpg",
+				"description" : "Brew beer (DO THE SHIT!)"
+			},
+			{
+				"title": "Love travelling",
+				"image": "/assets/img/Tanooki_Mario.jpg",
+				"description" : "Thailand/Myanmar, US, Canada discover (ADAPTABILITY!)"
+			},
+			{
+				"title": "Love travelling",
+				"image": "/assets/img/Tanooki_Mario.jpg",
+				"description" : "Thailand/Myanmar, US, Canada discover (ADAPTABILITY!)"
+			}
+		]
+	}
+}

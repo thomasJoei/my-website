@@ -1,0 +1,63 @@
+{% set nbColumns = 2 %}
+
+<div id="skills" class="section" style="position:relative; overflow: hidden;" *ngIf="skills">
+  <div class="text-center">
+    <h3>Skills</h3>
+  </div>
+  <div class="container">
+    {% for skillset in entry.skillsets %}
+      <div style="/*border:solid black*/"
+           id="{{ skillset.slug }}">
+        <hr>
+        <h1>
+          <small>{{ skillset.title }}</small>
+        </h1>
+        {% set nbRows = ((skillset.skills|length) / nbColumns)|round(0, 'ceil') %}
+        {#loop.parent.loop.index0#}
+        {#loop.index0#}
+        {#{% for skills in skillset.skills %}#}
+        {% for row in range(0, nbRows) %}
+          <div class="row"
+               style="margin-bottom: 10px;">
+
+            {% set currentRow = loop.index0 %}
+            {% for skill in (skillset.skills|slice((currentRow * nbColumns), nbColumns)) %}
+              <div class="col-lg-6 col-md-6 col-xs-12">
+
+                <div class="row skill" style="/*display: flex*/">
+
+                  <div class="skill-label-container">
+                    <a href="{{ skill.urlLink }}" target="_blank">
+                      <img src="{{ skill.logo.first.url }}" alt="{{ skill.label }} logo" class="skill-logo">
+                    </a>
+
+                    {#<img *ngIf="!skill.link" src="{{skill.logo}}" alt="{{skill.label}} logo" class="skill-logo">#}
+                    <span class="skill-label">{{ skill.label }}</span>
+                  </div>
+
+
+                  {#<div class="clearfix">#}
+                    <div class="rating">
+                    <div class="c100 p{{skill.expertiseLevel}} small">
+                      <span>{{skill.expertiseLevel}}%</span>
+                      <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                      </div>
+                    </div>
+                  </div>
+                  {#<div class="rating">#}
+                  {#<star-rating-comp [readOnly]="true" [showHalfStars]="true" [starType]="'svg'"#}
+                  {#[size]="'medium'" [staticColor]="'default'"#}
+                  {#[rating]=skill.score></star-rating-comp>#}
+                  {#</div>#}
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+</div>

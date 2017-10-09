@@ -1,0 +1,14 @@
+{% extends "_main-layout" %}
+
+
+{%  block content %}
+
+  {#{{ entry.body }}#}
+
+  {% include "main/navbar.twig" %}
+  {% include "main/overview.twig" %}
+  {% include "main/timeline.twig" %}
+  {% include "main/skill.twig" %}
+  {#{% include "main/random-facts.twig" %}#}
+
+{% endblock %}
