@@ -5,4 +5,9 @@ sudo apt-get --yes install php-mcrypt
 
 echo -e '[mysqld]\nsql-mode=""' | sudo tee --append /etc/mysql/conf.d/craft.cnf > /dev/null
 service mysql restart
+
+# Restart Apache
 sudo /etc/init.d/apache2 restart
+
+# Import Database
+./import-db.sh
