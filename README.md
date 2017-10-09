@@ -8,8 +8,8 @@ sudo apt-get install php-mcrypt
 
 echo -e '[mysqld]\nsql-mode=""' | sudo tee --append /etc/mysql/conf.d/craft.cnf > /dev/null
 service mysql restart
-``
-`
-## MySql
+``` 
+
+# MySql
 user: homestead
 password: secret
