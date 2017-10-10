@@ -1,4 +1,4 @@
-{% set nbColumns = 2 %}
+{% set nbColumns = 3 %}
 
 <div id="skills" class="section" style="position:relative; overflow: hidden;" *ngIf="skills">
   <div class="text-center">
@@ -22,7 +22,7 @@
 
             {% set currentRow = loop.index0 %}
             {% for skill in (skillset.skills|slice((currentRow * nbColumns), nbColumns)) %}
-              <div class="col-lg-6 col-md-6 col-xs-12">
+              <div class="col-lg-4 col-md-6 col-xs-12">
 
                 <div class="row skill" style="/*display: flex*/">
 
