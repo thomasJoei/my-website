@@ -30,32 +30,30 @@
       <div class="col-md-4">
         <img src="{{ entry.profilePicture.first.url }}" style="max-width:250px " id="profil_pic"
              class="img-responsive img-circle center-block" alt="Responsive image">
-        {#<img src="{{ overview?.profil_img.url }}" style="top: -150px; position: relative;left: 50px; max-width:280px " id="profil_pic" class="img-responsive img-rounded" alt="Responsive image">#}
+
+        <div style="text-align: center; margin: 10% 0 10% 0;">
+          <h4>{{ entry.secondQuote }}</h4>
+          <p>{{ entry.secondQuoteAuthor }}</p>
+        </div>
       </div>
       <div class="col-md-4 text-center">
-
         <h3>Details</h3>
         <div>
           {% for detailsBlock in entry.details %}
             <h5 style="margin-bottom: 5px;">{{ detailsBlock.headline }} </h5>
             <em>{{ detailsBlock.body }}</em>
           {% endfor %}
-        </div>
-        <div>
+
           <h5 style="margin-bottom: 5px;">Age</h5>
-          {#{% set currentDate = "now"|date("Y") %}#}
           {% set age =  date(entry.birth|date('Y/m/d')).diff(date('now'|date('Y/m/d'))) %}
-          {#date("now").diff(entry.birth)|date("Y")#}
           <em>{{ age.format("%y") }} years old</em>
         </div>
-        <ul id="social_links" style="list-style-type: none;">
+        <ul id="social-links" style="list-style-type: none;">
           {% for socialLink in entry.socialLinks %}
-            <li class="linkedin_button">
-              <!-- <div id="linkedin_button" style="height:40px;margin: 10px"> -->
+            <li class="social-link">
               <a href="{{ socialLink.urlLink }}" target="_blank">
-                <img class="linkedin_button" src="{{ socialLink.logo.first.url }}">
+                <img class="social-link-img" src="{{ socialLink.logo.first.url }}">
               </a>
-              <!-- </div> -->
             </li>
           {% endfor %}
         </ul>

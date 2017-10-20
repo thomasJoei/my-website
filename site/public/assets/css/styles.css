@@ -24,13 +24,15 @@ h1 {
     height:200px;
 }
 
-#social_links {
+#social-links {
     padding: 0px;
     margin-top:10px;
 }
-
-.linkedin_button {
+.social-link {
     display: inline-block;
+}
+
+.social-link-img {
     height: 30px;
     margin: 5px;
 }
