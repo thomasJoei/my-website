@@ -1,6 +1,7 @@
 {% set nbColumns = 3 %}
-
-<div id="skills" class="section" style="position:relative; overflow: hidden;" *ngIf="skills">
+<div id="skills" class="navbar-buffer">
+</div>
+<div  class="skills-section" style="position:relative; overflow: hidden;">
   <div class="text-center">
     <h3>Skills</h3>
   </div>
@@ -27,10 +28,13 @@
                 <div class="row skill" style="/*display: flex*/">
 
                   <div class="skill-label-container">
+                    {% if skill.urlLink != null %}
                     <a href="{{ skill.urlLink }}" target="_blank">
                       <img src="{{ skill.logo.first.url }}" alt="{{ skill.label }} logo" class="skill-logo">
                     </a>
-
+                    {% else %}
+                      <img src="{{ skill.logo.first.url }}" alt="{{ skill.label }} logo" class="skill-logo">
+                    {% endif %}
                     {#<img *ngIf="!skill.link" src="{{skill.logo}}" alt="{{skill.label}} logo" class="skill-logo">#}
                     <span class="skill-label">{{ skill.label }}</span>
                   </div>
