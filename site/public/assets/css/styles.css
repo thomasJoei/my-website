@@ -159,24 +159,9 @@ canvas {
     box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
 }
 
-/*.container {
-    padding: 2px 16px;
-}*/
-
-.active-skillSet {
-    /*background-color: rgba(0,0,0,0.2) !important;*/
-    /*border-bottom-color: rgba(0,0,0,0.2) !important;*/
-    /*border-bottom: 0px !important;*/
-}
-
 .skill-logo {
-    /*position:relative;*/
-   /*height: 60px;*/
    width: 100%;
    max-width: 50px;
-   /*text-align: right;*/
-   /*float: left;*/
-   /*margin-top: 10px;*/
 }
 
 .skill {
@@ -208,7 +193,6 @@ canvas {
 }
 
 @media (max-width: 500px) {
-
     .rating {
         flex: 0;
     }
@@ -219,6 +203,7 @@ canvas {
     bottom: 3%;
     left: 50%;
     margin-left:-20px;
+    cursor:pointer;
 }
 
 .bounce {
