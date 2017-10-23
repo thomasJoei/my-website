@@ -1,7 +1,7 @@
 {% set nbColumns = 3 %}
 <div id="skills" class="navbar-buffer">
 </div>
-<div  class="skills-section" style="position:relative; overflow: hidden;">
+<div class="skills-section" style="position:relative; overflow: hidden;">
   <div class="text-center">
     <h3>Skills</h3>
   </div>
@@ -29,9 +29,9 @@
 
                   <div class="skill-label-container">
                     {% if skill.urlLink != null %}
-                    <a href="{{ skill.urlLink }}" target="_blank">
-                      <img src="{{ skill.logo.first.url }}" alt="{{ skill.label }} logo" class="skill-logo">
-                    </a>
+                      <a href="{{ skill.urlLink }}" target="_blank">
+                        <img src="{{ skill.logo.first.url }}" alt="{{ skill.label }} logo" class="skill-logo">
+                      </a>
                     {% else %}
                       <img src="{{ skill.logo.first.url }}" alt="{{ skill.label }} logo" class="skill-logo">
                     {% endif %}
@@ -41,9 +41,9 @@
 
 
                   {#<div class="clearfix">#}
-                    <div class="rating">
-                    <div class="c100 p{{skill.expertiseLevel}} small">
-                      <span>{{skill.expertiseLevel}}%</span>
+                  <div class="rating">
+                    <div class="c100 p{{ skill.expertiseLevel }} small">
+                      <span>{{ skill.expertiseLevel }}%</span>
                       <div class="slice">
                         <div class="bar"></div>
                         <div class="fill"></div>

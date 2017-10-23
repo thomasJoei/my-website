@@ -6,20 +6,21 @@
         <!-- <div class="col-xs-4 col-xs-offset-4" style="border-radius: 25px position relative;"> -->
 
 
-        <div class="cards-container center-block" >
+        <div class="cards-container center-block">
 
           <div *ngFor="let fact of facts; let i = index;"
                class="card"
                [class.current-card]="i == currentFactIt"
-               (click)="changeFact()"  >
+               (click)="changeFact()">
             <!-- <canvas id="canvas">
               Your browser does not support canvas element.
             </canvas> -->
             <!-- <div class="card-front"> -->
-            <img src="{{fact.image}}" alt="Avatar" >
+            <img src="{{ fact.image }}" alt="Avatar">
             <div style="padding: 2px 16px;">
-              <h4 class="text-center" style="padding-bottom: 10px; border-bottom: 1px solid #ddd;"><b>{{fact.title}}</b></h4>
-              <p>{{fact.description}}</p>
+              <h4 class="text-center" style="padding-bottom: 10px; border-bottom: 1px solid #ddd;">
+                <b>{{ fact.title }}</b></h4>
+              <p>{{ fact.description }}</p>
             </div>
             <!-- </div> -->
             <!--  <div class="card-back">
@@ -28,10 +29,10 @@
           </div>
 
           <!-- <div class="card center-block" (click)="changeFact()" *ngIf="facts?.length">
-                        <img src="{{facts[currentFactIt].image}}" alt="Avatar" style="width:100%">
+                        <img src="{{ facts[currentFactIt].image }}" alt="Avatar" style="width:100%">
                         <div style="padding: 2px 16px;">
-                            <h4 class="text-center" style="padding-bottom: 10px; border-bottom: 1px solid #ddd;"><b>{{facts[currentFactIt].title}}</b></h4>
-                            <p>{{facts[currentFactIt].description}}</p>
+                            <h4 class="text-center" style="padding-bottom: 10px; border-bottom: 1px solid #ddd;"><b>{{ facts[currentFactIt].title }}</b></h4>
+                            <p>{{ facts[currentFactIt].description }}</p>
                         </div>
                     </div> -->
         </div>
@@ -39,7 +40,7 @@
     </div>
   </div>
   <div id="game" *ngIf="timeoutOver">
-    {{jsForCanvas()}}
+    {{ jsForCanvas() }}
     <canvas id="canvas">
       Your browser does not support canvas element.
     </canvas>

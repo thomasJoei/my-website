@@ -1,39 +1,43 @@
 <div id="timeline" class="navbar-buffer">
 </div>
 
-<div class="timeline-section" >
+<div class="timeline-section">
   <div class="container">
-  <div class="text-center">
-    <h3>PROFESSIONAL TIMELINE</h3>
-    <h5>Present</h5>
-  </div>
-  <ul class="timeline">
-    {% for exp in entry.experiences %}
-    <li class="timeline-event
+    <div class="text-center">
+      <h3>PROFESSIONAL TIMELINE</h3>
+      <h5>Present</h5>
+    </div>
+    <ul class="timeline">
+      {% for exp in entry.experiences %}
+        <li class="timeline-event
         {% if loop.index0 is odd %}
           timeline-inverted
         {% endif %}
         ">
-      <div class="timeline-badge">
-        <i class="glyphicon {{exp.icon}}"></i>
-        <!-- <i class="glyphicon" ><img src="/img/svg/multimedia.svg"></i> -->
-      </div>
-      <div class="timeline-panel" >
-        <div class="timeline-heading"  >
-          <h4 class="timeline-title" >{{exp.jobTitle}}</h4>
-          <em>{{exp.company}}</em>
-          <p><small class="text-muted"> {{exp.dates}}</small></p>
-        </div>
-        <div class="timeline-body">
-          <p> {{ exp.description }} </p>
-          <h5><small><em>{{exp.technos}}</em></small></h5>
-        </div>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-  <div class="text-center">
-    <h5>First time I played Minesweeper</h5>
-  </div>
+          <div class="timeline-badge">
+            <i class="glyphicon {{ exp.icon }}"></i>
+            <!-- <i class="glyphicon" ><img src="/img/svg/multimedia.svg"></i> -->
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{ exp.jobTitle }}</h4>
+              <em>{{ exp.company }}</em>
+              <p>
+                <small class="text-muted"> {{ exp.dates }}</small>
+              </p>
+            </div>
+            <div class="timeline-body">
+              <p> {{ exp.description }} </p>
+              <h5>
+                <small><em>{{ exp.technos }}</em></small>
+              </h5>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="text-center">
+      <h5>First time I played Minesweeper</h5>
+    </div>
   </div>
 </div>

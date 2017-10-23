@@ -29,6 +29,7 @@ sudo add-apt-repository -y ppa:ondrej/mysql-5.6
 sudo apt-get update
 sudo apt-get install mysql-server-5.6
 sudo apt-cache search php7-*
+sudo apt-get install php7.0-mbstring
 sudo apt-get install libapache2-mod-php7.0 php7.0-mysql php7.0-curl php7.0-json
 
 ``` 
