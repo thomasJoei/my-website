@@ -7,6 +7,7 @@ echo -e '[mysqld]\nsql-mode=""' | sudo tee --append /etc/mysql/conf.d/craft.cnf 
 service mysql restart
 
 # Restart Apache
+sudo cp ./php.ini /etc/php/7.1/apache2/php.ini
 sudo /etc/init.d/apache2 restart
 
 # Import Database

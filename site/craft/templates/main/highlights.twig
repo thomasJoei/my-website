@@ -1,0 +1,43 @@
+{% set nbColumns = 2 %}
+<div id="highlights" class="navbar-buffer">
+</div>
+<div class="highlights-section" style="position:relative; overflow: hidden;">
+  <div class="text-center">
+    <h3>Highlights</h3>
+  </div>
+  <div class="container">
+    <div class="row" class="hightlights-row">
+
+      {% for highlight in entry.highlights %}
+
+      <div class="col-lg-6 col-md-6 col-xs-12">
+        <a href="{{ highlight.urlLink }}">
+          <div class="highlight-container">
+            <img class="img-responsive highlight-image" src="{{ highlight.image.first.url }}"
+                 alt="{{ highlight.image.first.filename }}">
+            <div class="highlight-overlay">
+              <div class="text-overlay highlight-text-overlay">
+                <h2>{{ highlight.label }}</h2>
+                <p>{{ highlight.description }}</p>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+      {% set currentRow = loop.index %}
+
+      {% if (currentRow % nbColumns) == 0 %}
+    </div>
+    {% endif %}
+
+    {% if (((currentRow % nbColumns) == 0) and (entry.highlights|length > loop.index)) %}
+    <div class="row" class="hightlights-row">
+      {% endif %}
+
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
