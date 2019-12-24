@@ -1,0 +1,165 @@
+{
+	"siteName": "Thomas Joeisseint",
+	"head": {
+		"title": "Thomas Joeisseint - Software engineer",
+		"description": "Here is my web resume to know more about my experiences and projects as a software engineer, specialized in backend web development."
+	},
+	"navbarLinks": [
+		{"label": "Home", "href": "#home"},
+		{"label": "Profile", "href": "#profile"},
+		{"label": "Timeline", "href": "#timeline"},
+		{"label": "Skills", "href": "#skills"}
+	],
+	"overview": {
+		"backgroundImageUrl": "/assets/images/nathan-anderson-low.jpg",
+		"firstQuote": "If you aren't, at any given time, scandalized by code you wrote five or even three years ago, you're not learning anywhere near enough",
+		"firstQuoteAuthor": "Nick Black",
+		"secondQuote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
+		"secondQuoteAuthor": "Martin Fowler",
+		"profilePictureUrl": "/assets/images/profile-pic-latest.jpg",
+		"summary": "Constantly looking for new ways to improve my work, and new challenges to solve, I enjoy working with cutting edge technologies, using engineering best practices to ensure the viability, robustness and scalability of my work. Always willing to learn and better myself, I strongly believe that adaptability is a must, and, team cooperation along with communication the key factors to success.",
+		"details": {
+			"from": "La Rochelle, FRANCE",
+			"livingIn": "Montreal, CANADA"
+		},
+		"socialLinks": [
+			{"urlLink": "https://ca.linkedin.com/in/thomasjoeisseint", "logo": "/assets/logos/linkedin-logo2.png"},
+			{"urlLink": "https://github.com/thomasJoei", "logo": "/assets/logos/github-sociocon.png"},
+			{"urlLink": "thomas.joeisseint@gmail.com", "logo": "/assets/logos/gmail-logo.png"},
+			{"urlLink": "http://thomasjoeisseint.com/assets/cv/CV2017.pdf", "logo": "/assets/logos/cv-pdf-logo.png"}
+		]
+	},
+	"timeline": [
+		{
+			"icon": "glyphicon-briefcase",
+			"jobTitle": "Java Backend Developer",
+			"company": "Nurun Montréal",
+			"dates": "2017 - Present",
+			"description": "Development of REST APIs for mobile applications. Led backend development for 2 of the company's biggest projects for an international client.</br>Agile methodology, unit testing, TDD, end-to-end testing, CI/CD for multiple environments. Defined and set up automated tests. Created CI/CD pipelines for recurrent jobs.",
+			"technos": "Java8 - Spring Boot - Swagger - Mockito - KarateDSL - JBoss Server - Ansible - Vagrant - Docker - Jenkins - Groovy"
+		},
+		{
+			"icon": "glyphicon-briefcase",
+			"jobTitle": "Php Backend Developer",
+			"company": "Nurun Montréal",
+			"dates": "February 2016 - 2017",
+			"description": "Backend development of several commercial websites and REST APIs. Implementation of provisioning and deployment processes for multiple environments and management of CI execution.</br>Agile methodology, unit testing, continuous deployment.",
+			"technos": "CraftCms - Drupal - CakePhp - Ansible - Vagrant - Docker - Jenkins - MySQL - Apache Sling"
+		},
+		{
+			"icon": "glyphicon-pencil",
+			"jobTitle": "Backend intern",
+			"company": "Nurun Montréal",
+			"dates": "June 2015 - September 2015",
+			"description": "Website development with Laravel, database modeling, environment configuration.</br>Development of a Java automation testing tool for mobile devices.",
+			"technos": "Laravel - Ansible - Vagrant - Java"
+		},
+		{
+			"icon": "glyphicon-pencil",
+			"jobTitle": "Laboratory internship on object tracking algorithms",
+			"company": "LITIV Laboratory, Polytechnique Montreal",
+			"dates": "January 2014 - April 2015",
+			"description": "Use evaluation framework in order to make a benchmark comparison between tracking algorithms on 360° camera. </br><a href=\"http://arxiv.org/abs/1505.04502\" target=\"_blank\" rel=\"noreferrer noopener\">Research paper published</a>",
+			"technos": "Matlab - C++"
+		},
+		{
+			"icon": "glyphicon-education",
+			"jobTitle": "One year International exchange program",
+			"company": "Polytechnique Montreal",
+			"dates": "2014 - 2015",
+			"description": "Exchange for two semesters.",
+			"technos": "Artificial intelligence - Machine learning - Software Testing - Team management - Accounting"
+		},
+		{
+			"icon": "glyphicon-pencil",
+			"jobTitle": "Software engineer intern",
+			"company": "Miami University",
+			"dates": "May 2014 - August 2014",
+			"description": "Conception and implementation of users redirecting algorithms. Improvement of the redirected walking to support multi-user connected to the network.</br><a href=\"http://teams.cec.miamioh.edu/HIVE/index.php\" target=\"_blank\" rel=\"noreferrer noopener\">HIVE website</a>",
+			"technos": "C++ - Unity - C#"
+		},
+		{
+			"icon": "glyphicon-pencil",
+			"jobTitle": "Research on Automatic detection of adult content in web images",
+			"company": "Ars Nova System",
+			"dates": "September 2013 – April 2014",
+			"description": "Developed C++ image processing algorithms to build metrics feeding a supervised machine learning algorithm, in order to classify images. Created mathematical and statistical models for data analysis, and automate processes for easy integration. Close work with client, demo and sprint planning every month.",
+			"technos": "C++ - Bash/Shell - PHP - Matlab - Orange data mining"
+		},
+		{
+			"icon": "glyphicon-education",
+			"jobTitle": "Bachelor & Master degree in computer science engineering",
+			"company": "Graduate School of Engineering of the University of Nantes",
+			"dates": "2010 - 2015",
+			"description": "Major : Systems and networks.</br>Manager of the school cafeteria for a year.",
+			"technos": "Software development - Database modeling - Artificial intelligence - Business intelligence - Project management - Communication - Accounting"
+		}
+	],
+	"skillsets": [
+		{
+			"title": "DevOps",
+			"skills": [
+				{"label": "Ansible", "expertiseLevel": "90", "logo": "/assets/logos/ansible-logo.svg"},
+				{"label": "Docker", "expertiseLevel": "65", "logo": "/assets/logos/docker-logo.svg"},
+				{"label": "Vagrant", "expertiseLevel": "85", "logo": "/assets/logos/vagrant-logo.png"},
+				{"label": "Jenkins", "expertiseLevel": "90", "logo": "/assets/logos/jenkins-logo.png"},
+				{"label": "Bash/Shell", "expertiseLevel": "80", "logo": "/assets/logos/bash-logo.png"},
+				{"label": "Groovy", "expertiseLevel": "70", "logo": "/assets/logos/groovy-logo.png"},
+				{"label": "MySql", "expertiseLevel": "80", "logo": "/assets/logos/mysql-logo.png"}
+			]
+		},
+		{
+			"title": "Backend",
+			"skills": [
+				{"label": "Java&nbsp8", "expertiseLevel": "85", "logo": "/assets/logos/java-logo.png"},
+				{"label": "Spring", "expertiseLevel": "90", "logo": "/assets/logos/spring-logo.png"},
+				{"label": "Mockito", "expertiseLevel": "85", "logo": "/assets/logos/mockito-logo.png"},
+				{"label": "Python&nbsp3", "expertiseLevel": "55", "logo": "/assets/logos/python-logo.png"},
+				{"label": "Bottle", "expertiseLevel": "50", "logo": "/assets/logos/Bottle-logo.png"},
+				{"label": "CraftCMS", "expertiseLevel": "80", "logo": "/assets/logos/craft-square-logo.png"},
+				{"label": "Laravel", "expertiseLevel": "40", "logo": "http://thomasjoeisseint.com/assets/logos/laravel-logo.png"},
+				{"label": "Drupal8", "expertiseLevel": "55", "logo": "/assets/logos/drupal-logo.png"},
+				{"label": "CakePhp", "expertiseLevel": "50", "logo": "/assets/logos/cakephp-logo.svg"}
+			]
+		},
+		{
+			"title": "Other",
+			"skills": [
+				{"label": "Git", "expertiseLevel": "90", "logo": "/assets/logos/git-logo.png"},
+				{"label": "Jira", "expertiseLevel": "80", "logo": "/assets/logos/jira-logo.png"},
+				{"label": "Swagger", "expertiseLevel": "95", "logo": "/assets/logos/swagger.png"},
+				{"label": "KarateDSL", "expertiseLevel": "70", "logo": "/assets/logos/karatedsl-logo.svg"}
+			]
+		}
+	],
+	"highlights": [
+		{
+			"label": "Athlete Central app", 
+			"description": "Mobile application for the World Anti Doping Agency, enabling athletes to easily manage their whereabouts and be compliant with WADA's requirements.",
+			"imageUrl": "/assets/images/athlete-central.jpg",
+			"imageAlt": "Athlete Central app", 
+			"url": "https://www.wada-ama.org/en/what-we-do/adams/athlete-central"
+		},
+		{
+			"label": "Huge Immersive Virtual Environment", 
+			"description": "Miami University research project allowing several people to navigate naturally in VR worlds by being physically tracked.",
+			"imageUrl": "/assets/images/vr-low.jpg",
+			"imageAlt": "", 
+			"url": "http://teams.cec.miamioh.edu/HIVE/index.php"
+		},
+		{
+			"label": "Automatic detection of adult content in images", 
+			"description": "Using machine learning to classify images.  In collaboration with ARS NOVA SYSTEM (parental control software company).",
+			"imageUrl": "/assets/images/parental-control-low.jpg",
+			"imageAlt": "parental-control-low.jpg", 
+			"url": "https://www.parentsdanslesparages.com/"
+		},
+		{
+			"label": "Tracking evaluation on 360 camera", 
+			"description": "LITIV Laboratory research on evaluation framework for tracking algorithms.",
+			"imageUrl": "/assets/images/research-low.jpg",
+			"imageAlt": "research-low.jpg", 
+			"url": "http://arxiv.org/abs/1505.04502"
+		}
+	]
+}

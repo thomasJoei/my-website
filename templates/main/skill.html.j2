@@ -1,0 +1,54 @@
+{% set nbColumns = 3 %}
+<div id="skills" class="navbar-buffer">
+</div>
+<div class="skills-section" style="position:relative; overflow: hidden;">
+  <div class="text-center">
+    <h3>Skills</h3>
+  </div>
+  <div class="container">
+    {% for skillset in skillsets %}
+      <div style="/*border:solid black*/"
+           id="{{ skillset.title|lower }}">
+        <hr>
+        <h1>
+          <small>{{ skillset.title }}</small>
+        </h1>
+        {% set nbRows = (((skillset.skills|length) / nbColumns) + 0.5)|round|int %}
+
+        {% for row in range(0, nbRows) %}
+          <div class="row"
+               style="margin-bottom: 10px;">
+
+            {% set currentRow = loop.index0 %}
+            {% set currentSkillIndex = currentRow * nbColumns %}
+            {% set skillsSubset = skillset.skills[currentSkillIndex:(currentSkillIndex + nbColumns)] %}
+
+            {% for skill in skillsSubset %}
+              <div class="col-lg-4 col-md-6 col-xs-12">
+
+                <div class="row skill" style="/*display: flex*/">
+
+                  <div class="skill-label-container">
+                    <img src="{{ skill.logo}}" alt="{{ skill.label }} logo" class="skill-logo">
+                    <span class="skill-label">{{ skill.label }}</span>
+                  </div>
+
+                  <div class="rating">
+                    <div class="c100 p{{ skill.expertiseLevel }} small">
+                      <span>{{ skill.expertiseLevel }}%</span>
+                      <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+</div>
