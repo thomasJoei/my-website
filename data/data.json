@@ -35,7 +35,7 @@
 			"jobTitle": "Java Backend Developer",
 			"company": "Nurun Montréal",
 			"dates": "2017 - Present",
-			"description": "Development of REST APIs for mobile applications. Led backend development for 2 of the company's biggest projects for an international client.</br>Agile methodology, unit testing, TDD, end-to-end testing, CI/CD for multiple environments. Defined and set up automated tests. Created CI/CD pipelines for recurrent jobs.",
+			"description": "Development of REST APIs for mobile applications. Led backend development for 2 of the company's biggest projects for an international client (WADA). Close collaboration with the client team (tech + project management). Defined and set up automated tests. Created CI/CD pipelines for recurrent jobs.</br>Agile methodology, contract first architecture (Swagger), TDD, unit testing,  end-to-end testing, CI/CD for multiple environments.",
 			"technos": "Java8 - Spring Boot - Swagger - Mockito - KarateDSL - JBoss Server - Ansible - Vagrant - Docker - Jenkins - Groovy"
 		},
 		{
@@ -105,7 +105,10 @@
 				{"label": "Jenkins", "expertiseLevel": "90", "logo": "/assets/logos/jenkins-logo.png"},
 				{"label": "Bash/Shell", "expertiseLevel": "80", "logo": "/assets/logos/bash-logo.png"},
 				{"label": "Groovy", "expertiseLevel": "70", "logo": "/assets/logos/groovy-logo.png"},
-				{"label": "MySql", "expertiseLevel": "80", "logo": "/assets/logos/mysql-logo.png"}
+				{"label": "SQL&nbspServer", "expertiseLevel": "70", "logo": "/assets/logos/SQL-server-logo.png"},
+				{"label": "MySql", "expertiseLevel": "80", "logo": "/assets/logos/mysql-logo.png"},
+				{"label": "Keycloak&nbspSSO", "expertiseLevel": "80", "logo": "/assets/logos/keycloak-logo.png"}
+
 			]
 		},
 		{
@@ -119,7 +122,7 @@
 				{"label": "CraftCMS", "expertiseLevel": "80", "logo": "/assets/logos/craft-square-logo.png"},
 				{"label": "Laravel", "expertiseLevel": "40", "logo": "http://thomasjoeisseint.com/assets/logos/laravel-logo.png"},
 				{"label": "Drupal8", "expertiseLevel": "55", "logo": "/assets/logos/drupal-logo.png"},
-				{"label": "CakePhp", "expertiseLevel": "50", "logo": "/assets/logos/cakephp-logo.svg"}
+				{"label": "CakePhp", "expertiseLevel": "45", "logo": "/assets/logos/cakephp-logo.svg"}
 			]
 		},
 		{
@@ -128,22 +131,31 @@
 				{"label": "Git", "expertiseLevel": "90", "logo": "/assets/logos/git-logo.png"},
 				{"label": "Jira", "expertiseLevel": "80", "logo": "/assets/logos/jira-logo.png"},
 				{"label": "Swagger", "expertiseLevel": "95", "logo": "/assets/logos/swagger.png"},
-				{"label": "KarateDSL", "expertiseLevel": "70", "logo": "/assets/logos/karatedsl-logo.svg"}
+				{"label": "KarateDSL", "expertiseLevel": "70", "logo": "/assets/logos/karatedsl-logo.svg"},
+				{"label": "ML&nbsp&&nbspAI", "expertiseLevel": "55", "logo": "/assets/logos/ml-ai-logo.png"},
+				{"label": "Beer&nbspBrewing ", "expertiseLevel": "100", "logo": "/assets/logos/beer-logo.png"}
 			]
 		}
 	],
 	"highlights": [
 		{
-			"label": "Athlete Central app", 
+			"label": "Athlete Central", 
 			"description": "Mobile application for the World Anti Doping Agency, enabling athletes to easily manage their whereabouts and be compliant with WADA's requirements.",
 			"imageUrl": "/assets/images/athlete-central.jpg",
 			"imageAlt": "Athlete Central app", 
-			"url": "https://www.wada-ama.org/en/what-we-do/adams/athlete-central"
+			"url": "https://www.nurun.com/en/global/work/world-anti-doping-agency"
+		},
+		{
+			"label": "Review classifier", 
+			"description": "Machine learning project to classify Amazon reviews by product category.",
+			"imageUrl": "/assets/images/ml-code-1200.jpg",
+			"imageAlt": "Code", 
+			"url": "http://ai.thomasjoeisseint.com/classify"
 		},
 		{
 			"label": "Huge Immersive Virtual Environment", 
 			"description": "Miami University research project allowing several people to navigate naturally in VR worlds by being physically tracked.",
-			"imageUrl": "/assets/images/vr-low.jpg",
+			"imageUrl": "/assets/images/vr-low-900.jpg",
 			"imageAlt": "", 
 			"url": "http://teams.cec.miamioh.edu/HIVE/index.php"
 		},
@@ -151,15 +163,8 @@
 			"label": "Automatic detection of adult content in images", 
 			"description": "Using machine learning to classify images.  In collaboration with ARS NOVA SYSTEM (parental control software company).",
 			"imageUrl": "/assets/images/parental-control-low.jpg",
-			"imageAlt": "parental-control-low.jpg", 
+			"imageAlt": "parental-control-low-1200.jpg", 
 			"url": "https://www.parentsdanslesparages.com/"
-		},
-		{
-			"label": "Tracking evaluation on 360 camera", 
-			"description": "LITIV Laboratory research on evaluation framework for tracking algorithms.",
-			"imageUrl": "/assets/images/research-low.jpg",
-			"imageAlt": "research-low.jpg", 
-			"url": "http://arxiv.org/abs/1505.04502"
 		}
 	]
 }
