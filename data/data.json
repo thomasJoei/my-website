@@ -8,7 +8,8 @@
 		{"label": "Home", "href": "#home"},
 		{"label": "Profile", "href": "#profile"},
 		{"label": "Timeline", "href": "#timeline"},
-		{"label": "Skills", "href": "#skills"}
+		{"label": "Skills", "href": "#skills"},
+		{"label": "Highlights", "href": "#highlights"}
 	],
 	"overview": {
 		"backgroundImageUrl": "/assets/images/nathan-anderson-low.jpg",
