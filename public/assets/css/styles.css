@@ -35,6 +35,7 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #000;
 }
 
 .timeline-section {
