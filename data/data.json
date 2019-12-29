@@ -17,7 +17,7 @@
 		"secondQuote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
 		"secondQuoteAuthor": "Martin Fowler",
 		"profilePictureUrl": "/assets/images/profile-pic-latest.jpg",
-		"summary": "Constantly looking for new ways to improve my work, and new challenges to solve, I enjoy working with cutting edge technologies, using engineering best practices to ensure the viability, robustness and scalability of my work. Always willing to learn and better myself, I strongly believe that adaptability is a must, and, team cooperation along with communication the key factors to success.",
+		"summary": "Passionate about computer science, I enjoy using engineering best practices to help companies build robust, scalable and easy to maintain solutions. Looking for a great team where everyone’s experience benefits to the project and the other teammates, making us all grow, while delivering the best possible product. Proficient in web development, I also have a strong interest in data science and machine learning. ",
 		"details": {
 			"from": "La Rochelle, FRANCE",
 			"livingIn": "Montreal, CANADA"
@@ -26,7 +26,7 @@
 			{"urlLink": "https://ca.linkedin.com/in/thomasjoeisseint", "logo": "/assets/logos/linkedin-logo2.png"},
 			{"urlLink": "https://github.com/thomasJoei", "logo": "/assets/logos/github-sociocon.png"},
 			{"urlLink": "thomas.joeisseint@gmail.com", "logo": "/assets/logos/gmail-logo.png"},
-			{"urlLink": "http://thomasjoeisseint.com/assets/cv/CV2017.pdf", "logo": "/assets/logos/cv-pdf-logo.png"}
+			{"urlLink": "http://thomasjoeisseint.com/assets/cv/CV2019.pdf", "logo": "/assets/logos/cv-pdf-logo.png"}
 		]
 	},
 	"timeline": [
@@ -40,7 +40,7 @@
 		},
 		{
 			"icon": "glyphicon-briefcase",
-			"jobTitle": "Php Backend Developer",
+			"jobTitle": "PHP Backend Developer",
 			"company": "Nurun Montréal",
 			"dates": "February 2016 - 2017",
 			"description": "Backend development of several commercial websites and REST APIs. Implementation of provisioning and deployment processes for multiple environments and management of CI execution.</br>Agile methodology, unit testing, continuous deployment.",
@@ -59,7 +59,7 @@
 			"jobTitle": "Laboratory internship on object tracking algorithms",
 			"company": "LITIV Laboratory, Polytechnique Montreal",
 			"dates": "January 2014 - April 2015",
-			"description": "Use evaluation framework in order to make a benchmark comparison between tracking algorithms on 360° camera. </br><a href=\"http://arxiv.org/abs/1505.04502\" target=\"_blank\" rel=\"noreferrer noopener\">Research paper published</a>",
+			"description": "C++ implementation of Matlab interface for the LITIV lab evaluation framework, in order to test and benchmark C++ and Matlab tracking algorithms. Gather benchmark results in order to make a benchmark comparison between tracking algorithms on 360° camera. </br><a href=\"http://arxiv.org/abs/1505.04502\" target=\"_blank\" rel=\"noreferrer noopener\">Research paper published</a>",
 			"technos": "Matlab - C++"
 		},
 		{
